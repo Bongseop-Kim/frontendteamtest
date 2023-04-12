@@ -1,0 +1,63 @@
+.mainSide {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 150px
+}
+
+.top-section img {
+    margin-right: 10px;
+}
+
+.money-img {
+    height: 150px;
+    width: 150px;
+}
+
+.money-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resource-img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.time-text,
+.reward-text {
+    font-size: 14px;
+    font-weight: bold;
+}
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0 30px;
+    border-radius: 20px;
+}

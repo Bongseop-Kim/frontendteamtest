@@ -1,0 +1,53 @@
+
+.userSide {
+  flex: 0.5;
+  border-left: black 1px solid;
+}
+
+#userName {
+  text-align: center;
+  margin-top: 10%;
+  height: 60%;
+}
+
+#logButton {
+  margin-top: 20%;
+}
+
+#userPower {
+  margin: 10% 0 5% 0;
+}
+
+#rankImg {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin-left: 20%;
+}
+
+#rankButton {
+  margin: 15% 0 15% 0;
+}
+
+.userRankList {
+  text-align: left;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.userRankList li {
+  padding: 10px 0;
+}
+
+.userRankList li:first-child {
+  color: gold;
+}
+
+.userRankList li:nth-child(2) {
+  color: silver;
+}
+
+.userRankList li:nth-child(3) {
+  color: rgb(192, 111, 4)
+}

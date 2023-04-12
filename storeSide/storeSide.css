@@ -1,0 +1,60 @@
+.storeSide {
+<<<<<<< HEAD
+  background-color: gray;
+  
+}
+
+.fit-picture{
+  width: 120px;
+  height: 120px;
+}
+
+#storeSide-container{
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+#topIcon{
+  flex-grow:1;
+}
+#powerList{
+  flex-grow:5;
+}
+#jacpot{
+  flex-grow:1;
+}
+
+.power_img{
+  width: 80px;
+  height: 80px;
+  
+}
+.list-group-item{
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  margin:  15px;
+  border: 2px solid black;
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.divImg{
+  float:left
+}
+.storeText{
+  font-weight:bold;
+  margin: 10px;
+  margin-top: 20px;
+  margin-left: 35px;
+  text-align: center;
+  float:left
+}
+=======
+  background-color: red;
+}
+>>>>>>> f76baefc087f0322eee3ef48e6f8b0e513677784
