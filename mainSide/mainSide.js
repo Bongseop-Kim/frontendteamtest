@@ -27,8 +27,6 @@ const loginCheck = () => {
     .then((data) => {
       if (data.success) {
         moneyText.textContent = `${data.data.money} $`;
-      } else {
-        window.location.href = "/teamProject/login_signup/login.html";
       }
     })
     .catch((err) => console.log(err));

@@ -40,8 +40,8 @@ userName.appendChild(userRankList);
 // userSide top
 const userInfoUpdate = (user) => {
   document.getElementById("userName").prepend(`${user.name} 님`);
-  userPower.innerHTML = 'Power<br>' + user.strong;
-  userMoney.innerHTML = 'Money<br>' + user.money;
+  userPower.innerHTML = "Power<br>" + user.strong;
+  userMoney.innerHTML = "Money<br>" + user.money;
   logButton.innerHTML = "로그아웃";
 };
 
@@ -60,7 +60,7 @@ const loginCheck = () => {
         setStrong(data.data.strong);
         setId(data.data.id);
       } else {
-        window.location.href = "/teamProject/login_signup/login.html";
+        window.location.href = "../login_signup/login.html";
       }
     })
     .catch((err) => console.log(err));
@@ -71,7 +71,7 @@ loginCheck();
 logButton.addEventListener("click", () => {
   if (confirm("로그아웃 하시겠습니까?")) {
     Cookies.remove("token");
-    window.location.href = "/teamProject/login_signup/login.html";
+    window.location.href = "../login_signup/login.html";
   }
 });
 

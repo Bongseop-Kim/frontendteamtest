@@ -29,7 +29,7 @@ const loginFunc = (e) => {
         //로그인 완료시
         Cookies.set("token", data.data.token); // 로그인 정보 쿠키에 저장
         alert("로그인 완료되었습니다.");
-        window.location.href = "/teamProject/index.html";
+        window.location.href = "../../index.html";
       } else {
         throw new Error("로그인 실패했습니다."); //로그인실패 에러 생성
       }
@@ -44,12 +44,12 @@ const loginFunc = (e) => {
 signupPage.addEventListener("click", (e) => {
   //회원가입 클릭시 회원가입페이지 이동
   e.preventDefault();
-  window.location.href = "signup.html";
+  window.location.href = "../../login_signup/signup.html";
   console.log("click");
 });
 logImg.addEventListener("click", () => {
   //로고클릭시 메인페이지 이동
-  window.location.href = "/teamProject/index.html";
+  window.location.href = "../../index.html";
 });
 loginBtn.addEventListener("click", (e) => {
   loginFunc(e);

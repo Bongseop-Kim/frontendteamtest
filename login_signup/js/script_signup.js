@@ -34,7 +34,7 @@ const signupFunc = (event) => {
     .then((response) => {
       if (response.ok) {
         alert("회원가입이 완료되었습니다.");
-        window.location.href = "/teamProject/login_signup/login.html";
+        window.location.href = "../login.html";
       } else {
         throw new Error("회원가입에 실패했습니다.");
       }
@@ -49,5 +49,5 @@ signupForm.addEventListener("submit", signupFunc);
 
 logImg.addEventListener("click", () => {
   //로고클릭시 메인페이지이동
-  window.location.href = "/teamProject/index.html";
+  window.location.href = "../../index.html";
 });
