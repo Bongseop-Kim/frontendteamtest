@@ -34,7 +34,7 @@ const signupFunc = (event) => {
     .then((response) => {
       if (response.ok) {
         alert("회원가입이 완료되었습니다.");
-        window.location.href = "../login.html";
+        window.location.href = "../../login_signup/login.html";
       } else {
         throw new Error("회원가입에 실패했습니다.");
       }
